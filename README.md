@@ -1,8 +1,5 @@
 # END-END Text-Summarization Project
 
-
-
-
 ## Workflows in each step
 
 1. Update config.yaml
@@ -17,11 +14,12 @@
 
 # Steps Involved in the Project:
 
-1. Data Ingestion: Downloads data from a specified URL if not locally present and extracts the zip file into a directory.
-2. Data Transformation: Tokenizes input and target texts using Hugging Face Transformers, handling truncation to meet model requirements.
-3. Data Validation: Ensures all required files are present in the specified directory and logs the validation status.
-4. Model Training: Uses the Pegasus model for sequence-to-sequence tasks, configures training parameters, trains the model on the dataset, and saves the trained model and tokenizer.
-5. Model Evaluation: Processes the dataset in smaller batches, generates summaries with the model and tokenizer, computes ROUGE scores, and saves evaluation metrics to a CSV file.
+1. **Data Ingestion:** Downloads data from a specified URL if not locally present and extracts the zip file into a directory.
+2. **Data Transformation:** Tokenizes input and target texts using Hugging Face Transformers, handling truncation to meet model requirements.
+2. **Data Transformation:** Tokenizes input and target texts using Hugging Face Transformers, handling truncation to meet model requirements.
+3. **Data Validation:** Ensures all required files are present in the specified directory and logs the validation status.
+4. **Model Training:** Uses the Pegasus model for sequence-to-sequence tasks, configures training parameters, trains the model on the dataset, and saves the trained model and tokenizer.
+5. **Model Evaluation:** Processes the dataset in smaller batches, generates summaries with the model and tokenizer, computes ROUGE scores, and saves evaluation metrics to a CSV file.
 
 The project follows a modular pipeline approach, ensuring each step from data ingestion to model evaluation is clearly defined and executed systematically, enhancing maintainability and scalability.
 

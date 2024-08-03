@@ -29,7 +29,7 @@ The project follows a modular pipeline approach, ensuring each step from data in
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/dyavadi8769/Text-Summarization.git
-   cd ipl-innings-score-predictor
+   cd Text-Summarization
 
 2.  **Create a virtual environment and activate it:**
     ```bash
